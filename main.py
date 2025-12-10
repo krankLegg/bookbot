@@ -1,9 +1,13 @@
+import os
 import sys
 from stats import get_num_words, get_num_characters, get_sorted_list
 
 
 if len(sys.argv) >= 2:
     filepath = sys.argv[1]
+    if not os.path.exists(filepath):
+        print(f"No such file or directory: {filepath}")
+        sys.exit(1)
 else:
     print("Usage: python3 main.py <path_to_book>")
     sys.exit(1)

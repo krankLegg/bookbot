@@ -24,8 +24,10 @@ def main():
     print(f"""
 ============ BOOKBOT ============
 Analyzing book found at {filepath}...
+
 ----------- Word Count ----------
 Found {word_count} total words
+
 --------- Character Count -------""")
 
     for character in sorted_characters:

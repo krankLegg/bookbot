@@ -8,8 +8,10 @@ python3 main.py <PATH_TO_FILE>
 ### Report Example:
 ```============ BOOKBOT ============
 Analyzing book found at books/frankenstein.txt...
+
 ----------- Word Count ----------
 Found 75767 total words
+
 --------- Character Count -------
 a: 25894
 b: 4868
@@ -42,4 +44,4 @@ z: 235
 ê: 7
 ë: 2
 ô: 1
-============= END ===============```
+============= END ===============

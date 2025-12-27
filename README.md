@@ -1,6 +1,6 @@
 # BookBot
 
-BookBot is a local command-line application that produces a report with a total word count and character count list based on a text file (book text). This program will skip non-aplha characters in the charcter count. 
+BookBot is a local command-line application that produces a report with a total word count and character count list based on a text file (book text). This program will skip non-alpha characters in the character count. 
 
 ### Usage: 
 python3 main.py <PATH_TO_FILE>
